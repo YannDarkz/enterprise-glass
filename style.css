@@ -334,7 +334,7 @@
      padding: 50px 25px;
      cursor: pointer;
      transition: all 0.3s ease;
-     perspective: 150px
+     perspective: 800px
  }
 
  .services .serv-content .card:hover {
