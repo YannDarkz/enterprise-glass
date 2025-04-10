@@ -71,6 +71,13 @@
         }
     });
 
+
+    // card flip
+    $('.card').click(function(){
+        $(this).toggleClass('flipped');
+      });
+
+// swuiper slider
     const swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 10,
