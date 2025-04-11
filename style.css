@@ -324,7 +324,6 @@
  }
 
  .services .serv-content .card {
-     /* width: calc(33% - 20px); */
      width: 250px;
      height: 200px;
      border: 1px solid;
@@ -362,8 +361,6 @@
      border-radius: 12px;
      padding: 20px;
      box-sizing: border-box;
-     /* background-color: #222; */
-     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
  }
 
  .card-front {
@@ -379,7 +376,6 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    /* background-color: #0072C6; */
   }
 
  .services .serv-content .card .box {
@@ -412,10 +408,6 @@
      background: url("./src/images/grunge-background-259.png") no-repeat center;
      background-size: cover;
      background-attachment: fixed;
-
-     /* animation-name: rainbow;
-    animation-duration: 8s;
-    animation-iteration-count: infinite; */
  }
 
  @keyframes rainbow {
@@ -453,7 +445,6 @@
      background-size: cover;
      /* border: 1px solid; */
      /* background-attachment: fixed;  */
-
      font-size: 20px;
      font-weight: 600;
      margin-bottom: 10px;
