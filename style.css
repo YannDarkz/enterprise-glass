@@ -358,7 +358,7 @@
      background: #222;
      text-align: center;
      border-radius: 6px;
-     padding: 50px 25px;
+     /* padding: 50px 25px; */
      cursor: pointer;
      transition: all 0.3s ease;
      perspective: 800px
@@ -374,6 +374,10 @@
      position: relative;
      transition: transform 0.8s;
      transform-style: preserve-3d;
+ }
+
+ .services .serv-content .card.flipped {
+    padding: 0;
  }
 
  .card.flipped .card-inner {
@@ -400,9 +404,10 @@
 
  .card-back {
      transform: rotateY(180deg);
-     display: flex;
+     /* display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: center; */
+     text-align: start;
      color: #fff;
  }
 
@@ -634,48 +639,6 @@
  .btn-email {
      background-color: #0072C6;
  }
-
- /* .contact .right form .fields{
-    display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.contact .right form .textarea{
-    height: 80px;
-    width: 100%;
-}
-.contact .right form .name{
-    margin-right: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
-}
-.contact .right form .textarea textarea{
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button-area{
-  display: flex;
-  align-items: center;
-
-} */
 
 
  .contact {
