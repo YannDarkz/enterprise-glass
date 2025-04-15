@@ -30,7 +30,7 @@
     align-items: center;
     
     
-    background: url("../images/gato_dark-3.jpg") no-repeat center;
+    /* background: url("../images/gato_dark-3.jpg") no-repeat center; */
     background-size: cover;
     background-attachment: fixed;
 }
