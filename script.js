@@ -35,14 +35,14 @@
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "Fabricação e Reparo em peças em fibra de vidro", "Revestimento e impermeabilização", "serviço 3"],
+        strings: [ "Fabricação e Reparo em peças em fibra de vidro", "Revestimento e impermeabilização", "Projetos Especiais"],
         typeSpeed: 50,
         backSpeed: 20,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "Fabricação e Reparo em peças em fibra de vidro", "Revestimento e impermeabilização", "serviço 3"],
+        strings: [ "Fabricação e Reparo em peças em fibra de vidro", "Revestimento e impermeabilização", "Projetos Especiais"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
