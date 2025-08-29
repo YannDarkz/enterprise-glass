@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adfibradevidro.com/sitemap.xml
