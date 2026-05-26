@@ -606,6 +606,11 @@
      color: crimson;
  }
 
+ .contact .contact-content .row .phoneAlt {
+     font-size: 25px;
+     color: rgb(133, 133, 133);
+ }
+
  .contact .contact-content .info .head {
      font-weight: 500;
  }
